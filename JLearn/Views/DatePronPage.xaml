@@ -18,10 +18,12 @@
                          FlexLayout.Grow="1">
                 <Label x:Name="DateLabel" FontSize="40"
                        Text="{Static r:Strings.ClickToStart}"
-                       HorizontalTextAlignment="Center"/>
+                       HorizontalTextAlignment="Center"
+                       TextColor="#161616"/>
                 <Label x:Name="AnswerLabel" FontSize="25"
                        IsVisible="False"
-                       HorizontalTextAlignment="Center"/>
+                       HorizontalTextAlignment="Center"
+                       TextColor="#222222"/>
             </StackLayout>
             <Button x:Name="ActionButton" Text="{Static r:Strings.Start}"
                     Clicked="ActionButton_Clicked"
