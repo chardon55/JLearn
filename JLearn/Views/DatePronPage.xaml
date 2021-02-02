@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:JLearn.ViewModels"
+             xmlns:r="clr-namespace:JLearn.Resources"
+             x:Class="JLearn.Views.DatePronPage"
+             Title="{Binding Title}">
+    <ContentPage.BindingContext>
+        <vm:DatePronModel x:Name="CurrentModel" />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <FlexLayout HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                    Direction="Column">
+            <StackLayout Padding="0, 80"
+                         HorizontalOptions="CenterAndExpand"
+                         FlexLayout.Grow="1">
+                <Label x:Name="DateLabel" FontSize="40"
+                       Text="{Static r:Strings.ClickToStart}"
+                       HorizontalTextAlignment="Center"/>
+                <Label x:Name="AnswerLabel" FontSize="25"
+                       IsVisible="False"
+                       HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            <Button x:Name="ActionButton" Text="{Static r:Strings.Start}"
+                    Clicked="ActionButton_Clicked"
+                    Padding="0, 30"
+                    FontSize="20"/>
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>
