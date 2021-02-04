@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JLearn.Android", "JLearn.An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JLearn.iOS", "JLearn.iOS\JLearn.iOS.csproj", "{D76E0C16-EB82-4F22-8B06-E686823FCB81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JLearn", "JLearn\JLearn.csproj", "{9EC92807-20A9-4C3B-ABA2-9DDD7991543D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JLearn", "JLearn\JLearn.csproj", "{9EC92807-20A9-4C3B-ABA2-9DDD7991543D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
