@@ -1,4 +1,26 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <UseMaui>true</UseMaui>
+    <TargetFramework>net7.0-ios</TargetFramework>
+    <OutputType>Exe</OutputType>
+    	<ImplicitUsings>enable</ImplicitUsings>
+    	<SupportedOSPlatformVersion>15.4</SupportedOSPlatformVersion>
+
+  </PropertyGroup>
+
+  <!-- <ItemGroup>
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
+    </ItemGroup> -->
+
+ <ItemGroup>
+    <ProjectReference Include="..\JLearn\JLearn.csproj">
+      <Project>{DA0651BC-CD17-4ADB-981E-8249AADE5344}</Project>
+      <Name>JLearn</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -142,4 +164,4 @@
       <Name>JLearn</Name>
     </ProjectReference>
   </ItemGroup>
-</Project>
+</Project> -->

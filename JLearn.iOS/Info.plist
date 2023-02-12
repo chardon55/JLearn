@@ -21,7 +21,7 @@
         <string>UIInterfaceOrientationLandscapeRight</string>
     </array>
     <key>MinimumOSVersion</key>
-    <string>8.0</string>
+    <string>15.2</string>
     <key>CFBundleDisplayName</key>
     <string>JLearn</string>
     <key>CFBundleIdentifier</key>

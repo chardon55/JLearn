@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JLearn.Android", "JLearn.Android\JLearn.Android.csproj", "{4C5615E6-4341-4F50-BD6D-6762545B45AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JLearn.Android", "JLearn.Android\JLearn.Android.csproj", "{4C5615E6-4341-4F50-BD6D-6762545B45AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JLearn.iOS", "JLearn.iOS\JLearn.iOS.csproj", "{D76E0C16-EB82-4F22-8B06-E686823FCB81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JLearn.iOS", "JLearn.iOS\JLearn.iOS.csproj", "{D76E0C16-EB82-4F22-8B06-E686823FCB81}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JLearn", "JLearn\JLearn.csproj", "{9EC92807-20A9-4C3B-ABA2-9DDD7991543D}"
 EndProject
@@ -37,9 +37,9 @@ Global
 		{4C5615E6-4341-4F50-BD6D-6762545B45AC}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{4C5615E6-4341-4F50-BD6D-6762545B45AC}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{4C5615E6-4341-4F50-BD6D-6762545B45AC}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
-		{D76E0C16-EB82-4F22-8B06-E686823FCB81}.Debug|Any CPU.ActiveCfg = Debug|iPhone
-		{D76E0C16-EB82-4F22-8B06-E686823FCB81}.Debug|Any CPU.Build.0 = Debug|iPhone
-		{D76E0C16-EB82-4F22-8B06-E686823FCB81}.Debug|Any CPU.Deploy.0 = Debug|iPhone
+		{D76E0C16-EB82-4F22-8B06-E686823FCB81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76E0C16-EB82-4F22-8B06-E686823FCB81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76E0C16-EB82-4F22-8B06-E686823FCB81}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{D76E0C16-EB82-4F22-8B06-E686823FCB81}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{D76E0C16-EB82-4F22-8B06-E686823FCB81}.Debug|iPhone.Build.0 = Debug|iPhone
 		{D76E0C16-EB82-4F22-8B06-E686823FCB81}.Debug|iPhone.Deploy.0 = Debug|iPhone
